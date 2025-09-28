@@ -1,0 +1,63 @@
+<!-- Facilities Section (Updated with Hover effect) -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl font-bold mb-12 text-blue-700" data-aos="fade-down">Our Facilities</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" data-aos="fade-up">
+
+                    <!-- Facility Item 1: Heavy Duty Trucks -->
+                    <div class="facility-item rounded-lg shadow-lg transform transition-transform duration-300">
+                        <img src="assets/img/cranes.jpeg" alt="Heavy Duty Trucks"
+                            class="w-full h-[300px] object-cover rounded-lg">
+                        <div class="facility-overlay">
+                            <h3 class="text-xl font-bold text-white uppercase tracking-wider">Heavy Duty Trucks</h3>
+                        </div>
+                    </div>
+
+                    <!-- Facility Item 2: Workshop 1 -->
+                    <div class="facility-item rounded-lg shadow-lg transform transition-transform duration-300">
+                        <img src="assets/img/bulldozer.jpg" alt="Workshop 1"
+                            class="w-full h-[300px] object-cover rounded-lg">
+                        <div class="facility-overlay">
+                            <h3 class="text-xl font-bold text-white uppercase tracking-wider">Workshop 1</h3>
+                        </div>
+                    </div>
+
+                    <!-- Facility Item 3: Pumps and Valves -->
+                    <div class="facility-item rounded-lg shadow-lg transform transition-transform duration-300">
+                        <img src="assets/img/weldingmachines.jpg" alt="Pumps and Valves"
+                            class="w-full h-[300px] object-cover rounded-lg">
+                        <div class="facility-overlay">
+                            <h3 class="text-xl font-bold text-white uppercase tracking-wider">Pumps and Valves</h3>
+                        </div>
+                    </div>
+
+                    <!-- Facility Item 4: Bulldozers -->
+                    <div class="facility-item rounded-lg shadow-lg transform transition-transform duration-300">
+                        <img src="assets/img/Heavy-Duty-Trucks.jpg" alt="Bulldozers"
+                            class="w-full h-[300px] object-cover rounded-lg">
+                        <div class="facility-overlay">
+                            <h3 class="text-xl font-bold text-white uppercase tracking-wider">Bulldozers</h3>
+                        </div>
+                    </div>
+
+                    <!-- Facility Item 5: Workshop 2 -->
+                    <div class="facility-item rounded-lg shadow-lg transform transition-transform duration-300">
+                        <img src="assets/img/Water-Tanker.jpg" alt="Workshop 2"
+                            class="w-full h-[300px] object-cover rounded-lg">
+                        <div class="facility-overlay">
+                            <h3 class="text-xl font-bold text-white uppercase tracking-wider">Workshop 2</h3>
+                        </div>
+                    </div>
+
+                    <!-- Facility Item 6: Water Tanker -->
+                    <div class="facility-item rounded-lg shadow-lg transform transition-transform duration-300">
+                        <img src="assets/img/engineering.jpg" alt="Water Tanker"
+                            class="w-full h-[300px] object-cover rounded-lg">
+                        <div class="facility-overlay">
+                            <h3 class="text-xl font-bold text-white uppercase tracking-wider">Water Tanker</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>

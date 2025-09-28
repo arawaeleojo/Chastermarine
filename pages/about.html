@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Chastarmarine</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body {
+                font-family: 'Inter', sans-serif;
+                color: #1F2937;
+                /* Dark Gray */
+                background-color: #F9FAFB;
+                /* Light Gray */
+                overflow-x: hidden;
+            }
+        
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-family: 'Playfair Display', serif;
+            }
+        
+            /* Hero Image Background for About Page */
+            .hero-bg-about {
+                background-image: url('../assets/img/about2.jpg');
+                background-size: contain;
+                background-position: center;
+            }
+        
+            .hero-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.4);
+            }
+        
+            .text-shadow-custom {
+                text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+            }
+        
+            .nav-active {
+                border-bottom: 2px solid #3B82F6;
+                color: #3B82F6;
+            }
+        </style>
+        </head>
+        
+        <body class="bg-gray-50 text-gray-800">
+        
+            <!-- Header -->
+            <header class="bg-white fixed w-full z-50 shadow-md">
+                <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <span class="text-2xl font-bold text-gray-900">CHASTAR</span>
+                        <span class="text-sm text-blue-600 hidden sm:block">MARINE</span>
+                    </a>
+                    <div class="hidden md:flex space-x-8 text-sm font-semibold text-gray-700">
+                        <a href="../index.html" class="hover:text-blue-600 transition-colors">Home</a>
+                        <a href="about.html" class="hover:text-blue-600 transition-colors nav-active">About Us</a>
+                        <a href="services.html" class="hover:text-blue-600 transition-colors">Services</a>
+                        <a href="projects.html" class="hover:text-blue-600 transition-colors">Facilities</a>
+                        <a href="contact.html" class="hover:text-blue-600 transition-colors">Contact</a>
+                    </div>
+                    <div class="md:hidden">
+                        <button id="mobile-menu-button" class="text-gray-900 focus:outline-none">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16m-7 6h7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </nav>
+                <!-- Mobile Menu -->
+                <div id="mobile-menu" class="hidden md:hidden bg-blue-50 transition-all duration-300 ease-in-out">
+                    <ul class="flex flex-col items-center py-4 space-y-4">
+                        <li><a href="../index.html" class="block text-gray-800 hover:text-blue-600 transition-colors py-2">Home</a>
+                        </li>
+                        <li><a href="about.html"
+                                class="block text-gray-800 hover:text-blue-600 transition-colors py-2 nav-active">About Us</a>
+                        </li>
+                        <li><a href="services.html"
+                                class="block text-gray-800 hover:text-blue-600 transition-colors py-2">Services</a>
+                        </li>
+                        <li><a href="projects.html"
+                                class="block text-gray-800 hover:text-blue-600 transition-colors py-2">Facilities</a>
+                        </li>
+                        <li><a href="contact.html"
+                                class="block text-gray-800 hover:text-blue-600 transition-colors py-2">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+        
+    <main>
+        <!-- Hero Section -->
+        <section class="h-[80vh] flex items-center justify-center text-center relative hero-bg-about" data-aos="fade-in"
+            data-aos-duration="1500">
+            <div class="absolute inset-0 hero-overlay"></div>
+            <div class="relative z-10 p-8 rounded-xl max-w-4xl mx-auto" data-aos="zoom-in" data-aos-delay="300">
+                <h1
+                    class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 leading-tight text-white text-shadow-custom">
+                    ABOUT CHASTAR MARINE & ENGINEERING SERVICES LTD
+                </h1>
+            </div>
+        </section>
+
+        <!-- Mission, Vision, Objective Section -->
+        <section id="mission-vision" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold mb-12 text-blue-700 text-center" data-aos="fade-down">Our Core Principles
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-xl text-center text-gray-800" data-aos="fade-up">
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-blue-600 p-4 rounded-full inline-block">
+                                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.171 1.486L10 16.59l6.517 1.448a1 1 0 001.171-1.486l-7-14z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Our Mission</h3>
+                        <p class="text-sm text-gray-600">
+                            To deliver innovative and reliable marine and engineering solutions that exceed our clients'
+                            expectations.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-xl text-center text-gray-800" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-blue-600 p-4 rounded-full inline-block">
+                                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                                    <path fill-rule="evenodd"
+                                        d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Our Vision</h3>
+                        <p class="text-sm text-gray-600">
+                            To become leaders in modern technology services and products, earning good returns and
+                            growing
+                            our investments.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-xl text-center text-gray-800" data-aos="fade-up"
+                        data-aos-delay="400">
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-blue-600 p-4 rounded-full inline-block">
+                                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">Core Values</h3>
+                        <p class="text-sm text-gray-600">
+                            Our clients' satisfaction is our priority, driving every aspect of our project execution and
+                            service delivery.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise & History Section (New Section 1) -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1" data-aos="fade-right" data-aos-duration="1000">
+                        <h2 class="text-4xl font-bold mb-4 text-blue-700">Decades of Marine & Engineering Experience
+                        </h2>
+                        <p class="text-lg mb-6 leading-relaxed text-gray-600">
+                            Our team has acquired a wide variety of experience in technical execution and service
+                            delivery procedures, meeting clients' complex expectations across the marine, engineering,
+                            and lifting operation sectors.
+                        </p>
+                        <p class="text-lg leading-relaxed text-gray-600 border-l-4 border-blue-600 pl-4 italic">
+                            Since being incorporated on October 25th, 2006, we have been involved in prime
+                            EPC-projects, consistently providing critical services and engineering/design support for
+                            specific contract scopes. Our history is built on successful execution.
+                        </p>
+                    </div>
+                    <div class="order-1 md:order-2 flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                        <img src="../assets/img/marine.jpg"
+                            alt="History Timeline" class="rounded-xl shadow-2xl object-cover w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Indigenous Leadership Section (New Section 2) -->
+        <section class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="flex justify-center" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="../assets/img/about2.jpg" alt="Indigenous Team"
+                            class="rounded-xl shadow-2xl object-cover w-full h-auto">
+                    </div>
+                    <div data-aos="fade-left" data-aos-duration="1000">
+                        <h2 class="text-4xl font-bold mb-4 text-blue-700">Expertise, Discipline and Precision</h2>
+                        <p class="text-lg mb-6 leading-relaxed text-gray-600">
+                            CHASTAR MARINE & ENGINEERING SERVICES LTD is wholly an indigenous Marine, Engineering,
+                            Procurement, and Lifting services organization with 100% Nigerian shareholding at its
+                            hierarchy.
+                        </p>
+                        <p class="text-lg leading-relaxed text-gray-600">
+                            The organization is managed by a board comprising seasoned professionals and technocrats
+                            with the ultimate drive to promote indigenous technical participation in Nigeria's
+                            infrastructure development service chain. We are committed to local content excellence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Meet Our Team Section (Adjusted to reflect new flow) -->
+        <section id="our-team" class="py-20 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-4xl font-bold mb-12 text-blue-700" data-aos="fade-down">Meet Our Team</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Team Member 1 -->
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-lg text-center" data-aos="fade-up">
+                        <img src="../assets/img/staff1.jpg" alt="Marine Engineer"
+                            class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold mb-1 text-gray-800">Chastar Staff</h3>
+                        <p class="text-blue-600 font-semibold">Marine Engineer</p>
+                        <p class="text-sm text-gray-600 mt-2">Highly trained and certified in marine system diagnostics
+                            and repair.</p>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-lg text-center" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <img src="../assets/img/staff2.jpg" alt="Mechanical Engineer"
+                            class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold mb-1 text-gray-800">Chastar Staff</h3>
+                        <p class="text-blue-600 font-semibold">Mechanical Engineer</p>
+                        <p class="text-sm text-gray-600 mt-2">Specializing in fabrication, engine reconditioning, and
+                            complex machinery.</p>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-lg text-center" data-aos="fade-up"
+                        data-aos-delay="400">
+                        <img src="../assets/img/staff3.jpg" alt="QAQC Engineer"
+                            class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                        <h3 class="text-xl font-bold mb-1 text-gray-800">Chastar Staff</h3>
+                        <p class="text-blue-600 font-semibold">QA/QC Engineer</p>
+                        <p class="text-sm text-gray-600 mt-2">Ensuring all projects adhere to the highest international
+                            quality and safety standards.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Call to Action Section -->
+        <section class="py-20 bg-blue-600 text-center">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl sm:text-4xl font-bold text-white mb-6">Partner with the Experts.</h2>
+                <a href="contact.html"
+                    class="px-8 py-4 bg-white text-blue-800 font-semibold rounded-full shadow-lg hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105">
+                    Request a Quote
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 py-12 text-slate-400">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h4 class="text-lg font-bold mb-4 text-white">CHASTAR</h4>
+                <p>Leading the way in marine and engineering solutions, with a focus on quality, safety, and
+                    sustainability.</p>
+                <div class="flex space-x-4 mt-4 text-slate-400">
+                    <a href="#" class="hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.769s.784-1.769 1.75-1.769 1.75.79 1.75 1.769-.784 1.769-1.75 1.769zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.799-1.574 2.162-2.723-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.593 0-6.49 2.903-6.49 6.49 0 .509.058 1.005.174 1.485-5.392-.27-10.187-2.857-13.385-6.795-.569.981-.895 2.13-.895 3.331 0 2.24 1.133 4.215 2.898 5.371-.937-.03-1.815-.284-2.585-.712v.081c0 3.167 2.251 5.8 5.212 6.387-.545.149-1.114.237-1.701.237-.417 0-.82-.041-1.215-.116.834 2.576 3.242 4.463 6.134 4.516-2.239 1.756-5.074 2.809-8.156 2.809-.533 0-1.056-.032-1.57-.091 2.91 1.861 6.357 2.95 10.063 2.95 12.071 0 18.636-10.029 18.636-18.63 0-.174-.004-.349-.009-.523.518-.372.96-1.173 1.31-1.921z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:text-white transition-colors">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.613.493-1.109 1.1-1.109s1.1.496 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-2v-3.493c0-.495-.008-.98-.016-1.472h-.01c-.426-.777-.925-1.516-1.637-1.516-1.246 0-1.745 1.05-1.745 2.58v3.9h-2v-6h2v.896c.712-.998 1.547-1.96 3.129-1.96 2.052 0 3.59 1.341 3.59 4.223v2.841z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-4 text-white">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+                    <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+                    <li><a href="services.html" class="hover:text-white transition-colors">Services</a></li>
+                    <li><a href="gallery.html" class="hover:text-white transition-colors">Gallery</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-4 text-white">Contact Info</h4>
+                <p><strong>Address:</strong> 123 Marine Way, Victoria Island, Lagos, Nigeria</p>
+                <p class="mt-2"><strong>Phone:</strong> +234 123 456 789</p>
+                <p class="mt-2"><strong>Email:</strong> info@chastarmarine.com</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-bold mb-4 text-white">Location</h4>
+                <div class="rounded-lg overflow-hidden shadow-lg h-36 w-full">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.677551046187!2d3.4243673147703816!3d6.435728895318612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf5392264c483%3A0x673c6838a1a3648a!2sVictoria%20Island%2C%20Lagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1628198759604!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-slate-700 mt-8 pt-8 text-center text-slate-500">
+            &copy; 2024 Chastarmarine. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+            mirror: false,
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
